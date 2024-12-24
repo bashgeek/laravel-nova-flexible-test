@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51dca7fcfe555c4e389c25561a6ac7d4",
+    "content-hash": "f465db8a77d0dd4707bb66fda8f1ebea",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -6709,10 +6709,16 @@
         {
             "name": "whitecube/nova-flexible-content",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blendbyte/nova-flexible-content.git",
+                "reference": "95537de39db4d3a0d95853f916728147156a4f9e"
+            },
             "dist": {
-                "type": "path",
-                "url": "../nova-flexible-content",
-                "reference": "9eef38989974e1ba646aa4d0ae6490d406cdec2f"
+                "type": "zip",
+                "url": "https://api.github.com/repos/blendbyte/nova-flexible-content/zipball/95537de39db4d3a0d95853f916728147156a4f9e",
+                "reference": "95537de39db4d3a0d95853f916728147156a4f9e",
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -6725,6 +6731,7 @@
                 "phpunit/phpunit": "^9.5",
                 "psalm/plugin-laravel": "^2.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -6776,9 +6783,16 @@
                 "nova",
                 "repeat"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/blendbyte/nova-flexible-content/tree/master"
+            },
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/whitecube"
+                }
+            ],
+            "time": "2024-12-24T04:54:01+00:00"
         }
     ],
     "packages-dev": [

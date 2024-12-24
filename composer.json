@@ -80,8 +80,8 @@
             "url": "https://nova.laravel.com"
         },
         {
-            "type": "path",
-            "url": "../nova-flexible-content"
+            "type": "vcs",
+            "url": "https://github.com/blendbyte/nova-flexible-content/"
         }
     ]
 }
